@@ -1,0 +1,20 @@
+.section
+	.section-content
+		h1.center Say Hello
+		dl.contact-details.clearfix
+			dt Email
+			dd 
+				a(href="mailto:" + public._data.contact.email)!=public._data.contact.email
+			dt Phone
+			dd!=public._data.contact.phone
+			dt Social
+			dd 
+				ul
+					li 
+						a(href=public._data.contact.linkedin) Linkedin
+					li 
+						a(href=public._data.contact.twitter) Twitter
+					li 
+						a(href=public._data.contact.github) Github
+					li
+						a(href=public._data.contact.etsy) Etsy

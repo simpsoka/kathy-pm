@@ -1,0 +1,24 @@
+.section.hero-section
+	.section-content
+		.center
+			img(src="/images/avatar.jpg" class="avatar")
+			h1 Kathy Simpson
+			h2 Product Manager
+		include:markdown sections/bio/bio.md
+		p.time-ago Last revised 
+			a(href=public.sections.bio._data.html_url)
+				abbr(title=public.sections.bio._data.updated_at class="date")
+
+.section.shipped-section#shipped
+	.section-content
+		h2 Shipped
+		.products-wrapper.clearfix
+			for product in public.sections.products._data
+				!= partial("sections/products/_product", product)
+
+.section.recommendations-section#recs
+	.section-content
+		h2 Recommendations
+		ul(class="media-list recommendations-list")
+			for rec in public.sections.recs._data
+				!= partial("sections/recs/_rec", rec)

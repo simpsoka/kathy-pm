@@ -1,0 +1,13 @@
+ {
+	"name": "kathy.pm",
+	"version": "0.0.1",
+	"description": "job site",
+	"dependencies": {
+		"harp": "0.20.1",
+		"github": "0.2.4",
+		"markdown-pdf": "6.0.0",
+		"uglify-js": "2.6.1",
+		"request": "2.67.0",
+		"node-sass": "3.4.2"
+	}
+}

@@ -1,0 +1,12 @@
+.section
+	.section-content.resume-section
+		.resume-format-menu
+			a.button.outline-button.base-secondary.alt-title-button(href='/files/cv.pdf') PDF
+			a.button.outline-button.base-secondary.alt-title-button(href=public.sections.cv._data.html_url) Github
+
+		include:markdown sections/cv/cv.md
+
+	.section-footer
+		p.time-ago Last revised 
+			a(href=public.sections.cv._data.html_url)
+				abbr(title=public.sections.bio._data.updated_at class="date")
