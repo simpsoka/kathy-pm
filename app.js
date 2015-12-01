@@ -62,7 +62,7 @@ var updateGist = function(filename, gist) {
 		// sass generation
 		sass.render({
 		  file: config.scss_path,
-		  data: "h1, h2, h3, h4 { margin: 0; } body { padding: 4em; font-family: Georgia } ul { padding-left: 1.25em; } h3 { margin-top: 1.25em; margin-bottom: 1.25em; } h4:not(:first-child) { margin-top: 1.25em * 2; } h4 + p { margin: 0; }"
+		  data: "h1, h2, h3, h4 { margin: 0; } body { padding: 4em; } ul { padding-left: 1.25em; } h3 { margin-top: 1.25em; margin-bottom: 1.25em; } h4:not(:first-child) { margin-top: 1.25em * 2; } h4 + p { margin: 0; }"
 		}, function(err, result) {
 			fs.writeFile(config.pdf_css_path, result.css);
 		});

@@ -16,14 +16,14 @@ html
 		meta(name="viewport" content="user-scalable=0, initial-scale=1.0")
 		meta(name="apple-mobile-web-app-capable" content="yes")
 		meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
-
 		link(rel="stylesheet" href="/css/main.css")
 		title kathy.pm
 
 	body(class="#{current.source}-layout")
 		header.section
-			a(href="/").left
-				img(src="/images/logo-solid.svg" class="logo")
+			a(href="/").left.logo-link
+				include images/logo-solid.svg
+
 			.section-content
 				nav.center
 					a.alt-title-button(href="/" class=current.source == 'index' ? 'selected' : '') Profile

@@ -10,7 +10,7 @@ Product managers
 Teams 
 -----
 - A lot of chatter is a solid indication that your team is operating well. Silence is a scary, dark place that you want to get away from pronto.
-- Teams operate better when they’re happy, but being afraid of disagreements is detrimental. Consensus isn’t always a good thing, bring boba tea if you have to. 
+- Teams operate better when they’re happy, but being afraid of disagreements is detrimental. Consensus is not always a good thing, bring boba tea if you have to. 
 - The best designers are part engineers and vice-versa. 
 - It's vital for team members to have empathy for other disciplines.
 - Collaboration doesn't require a calendar invite; welcome impromptu face to face discussions and watch productivity escalate.

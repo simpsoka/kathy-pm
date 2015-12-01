@@ -141,10 +141,21 @@ header nav {
   zoom: 1;
 }
 
-.logo {
+.logo-link svg {
   width: 50px;
   opacity: 0.9;
   margin-top: -1em;
+  height: auto;
+
+
+  &:hover {
+    transition: transform .1s ease-out;
+    transform: translateY(2px);
+    path {
+      fill: #ff0e51;
+      transition: fill .2s;
+    }
+  }
 }
 
 .header {
@@ -291,9 +302,6 @@ header nav {
 }
 
 .resume-section {
-  ul {
-    padding-left: $base-spacing;
-  }
   h3 {
     margin-top: $base-spacing * 2;
     margin-bottom: $base-spacing;
@@ -335,7 +343,6 @@ header nav {
 }
 
 .contact-details {
-  padding: $base-spacing * 2;
   font-size: 1.4em;
   max-width: 480px;
   margin: $base-spacing auto;
@@ -418,11 +425,35 @@ header nav {
     border-top: 2px solid border-color(3);
     padding-top: 2em;
   }
-  .logo {
+  .logo-link svg {
     width: 30px;
     margin-top: -0.3em;
   }
   header nav a {
     margin: 0 1rem;
+    &:first-child {
+      display: none;
+    }
+  }
+
+  .resume-section {
+    h3:before {
+      content: "";
+      padding-right: 0;
+      margin-left: 0;
+    }
+  }
+
+  .contact-details {
+    dt, dd {
+      float: none;
+    }
+    dt { 
+      border-bottom: 2px solid border-color(3);
+    }
+    dd { 
+      margin: 0;
+      margin-bottom: $base-spacing * 2;
+    }
   }
 }
