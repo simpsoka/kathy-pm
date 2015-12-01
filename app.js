@@ -104,7 +104,7 @@ var server = function(callback) {
 
 	uglify(function() {
 		harp.server(config.harp_path, { 
-			port: process.env.PORT || 3000;
+			port: process.env.PORT || 3000
 		}, function() {
 			console.log('deployed server');
 		});
