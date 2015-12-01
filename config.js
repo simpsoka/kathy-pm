@@ -6,7 +6,8 @@ config = {
 	scss_path: __dirname + '/app/css/main.scss',
 	files_path: __dirname + '/app/files',
 	js_path:  __dirname + '/app/js',
-	js_source_path: __dirname + '/app/js/source'
+	js_source_path: __dirname + '/app/js/source',
+	harp_path: __dirname + '/app'
 }
 
 module.exports = config;

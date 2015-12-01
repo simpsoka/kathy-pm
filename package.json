@@ -8,6 +8,10 @@
 		"markdown-pdf": "6.0.0",
 		"uglify-js": "2.6.1",
 		"request": "2.67.0",
-		"node-sass": "3.4.2"
-	}
+		"node-sass": "3.4.2",
+		"cron": "1.0.9"
+	},
+	 "engines": {
+    "node": "0.12.7"
+  }
 }

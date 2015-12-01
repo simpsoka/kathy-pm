@@ -28,10 +28,15 @@ Now
 
 At Substantial I work with a team of developers and designers to take product ideas from conception to launch. Along with daily product management tasks like reporting, data analysis, scrum management, I specialize in refining our communication and process, which helps us tone our weaknesses and improve our strengths. We employ a deep level of honesty and analysis for what we do and how we do it. My team is skilled at successful product launches that continue to grow in the real world. To help ensure future growth and stability, I empower my team by leveraging tools to help us succeed such as authoring Product Opportunity Assessment or Lean Canvas, de ning our MVP criteria and hypotheses, collaborating to move past road blocks intelligently, and highlighting product market fit goals and roadmap.
 
-#### Sr. Product Manager, Disqus
+### Sr. Product Manager, Disqus
 8/12-8/13
 
-At Disqus, I managed our core commenting product. Making and maintaining an established product with hundreds of thousands of users was daunting, and welcome. I was often diving deep into user experience challenges that may seem simple at first, but are almost always complex and fascinating just below the surface. I partnered with senior leadership, product designers, front-end, support and infrastructure engineers to cultivate an intense curiosity for understanding user happiness. Day to day we used a combination of user feedback, product design intuition and data to help us make decisions that result in everything from subtle to blue sky executions.
+At Disqus, I managed the core commenting product. Making and maintaining an established product with hundreds of thousands of users was daunting, but welcome. Often, I dove deep into user experience challenges. I partnered with senior leadership, product designers, front-end, support and infrastructure engineers to cultivate an intense curiosity for understanding user happiness. Day to day we used a combination of user feedback, product design intuition and data to help us make decisions that result in everything from subtle to blue sky executions.
+
+### Product Manager, Say Media
+8/12-8/13 
+
+My work at Say began as the Product Manager for Mobile. My initial focus was to improve and manage the mobile product suite for network advertising. I was able to scale the mobile product to respond to a marketplace and revenue stream that continues to grow, tripling in my first three months. Currently, I focus on building and maintaining a product suite that Say’s global studio uses to build, traffic and publish all of our ad units. Additionally, I spearheaded our HTML5 strategy, and am working to scale our capabilities around this technology. 
 
 #### Technical Architect, Hot Studio Inc
 12/10-8/12

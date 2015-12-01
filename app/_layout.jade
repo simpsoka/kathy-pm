@@ -11,11 +11,17 @@ html
 
 	head
 		link(rel="stylesheet" href="/css/main.css")
+		title kathy.pm
+
 	body(class="#{current.source}-layout")
-		header 
-			nav.center
-				a.alt-title-button(href="/" class=current.source == 'index' ? 'selected' : '') Profile
-				a.alt-title-button(href="/cv" class=current.source == 'cv' ? 'selected' : '') CV
-				a.alt-title-button(href="/contact" class=current.source == 'contact' ? 'selected' : '') Contact
+		header.section
+			a(href="/").left
+				img(src="/images/logo-solid.svg" class="logo")
+			.section-content
+				nav.center
+					a.alt-title-button(href="/" class=current.source == 'index' ? 'selected' : '') Profile
+					a.alt-title-button(href="/cv" class=current.source == 'cv' ? 'selected' : '') CV
+					a.alt-title-button(href="/contact" class=current.source == 'contact' ? 'selected' : '') Contact
 		!= yield
+
 	script(src='/js/app.js')
