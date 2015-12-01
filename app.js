@@ -55,7 +55,7 @@ var updateGist = function(filename, gist) {
 
 	// write JSON
 	fs.writeFile(jsonFilePath, JSON.stringify(gist), function(err, data) {
-		console.log err if err
+		console.log(err) if err;
 	});
 
 	// write Markdown
