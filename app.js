@@ -1,3 +1,5 @@
+require('heroku-self-ping')("http://kathy-pm.herokuapp.com");
+
 var harp     = require('harp');
 var Github   = require('github');
 var fs       = require('fs');
@@ -8,6 +10,7 @@ var config   = require('./config');
 var markdownpdf = require('markdown-pdf');
 var sass        = require('node-sass');
 var CronJob     = require('cron').CronJob;
+
 
 var getGithubGists = function(callback) {
 	var github = new Github({ // required 

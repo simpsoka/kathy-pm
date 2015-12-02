@@ -9,7 +9,8 @@
 		"uglify-js": "2.6.1",
 		"request": "2.67.0",
 		"node-sass": "3.4.2",
-		"cron": "1.0.9"
+		"cron": "1.0.9",
+		"heroku-self-ping" : "1.1.2"
 	},
 	 "engines": {
     "node": "0.12.7"
