@@ -57,9 +57,7 @@ var updateGist = function(filename, gist) {
 	var jsonFilePath = path.join(basePath, '_data.json');
 
 	// write JSON
-	fs.writeFile(jsonFilePath, JSON.stringify(gist), function(err, data) {
-		if (err) console.log(err);
-	});
+	fs.writeFileSync(jsonFilePath, JSON.stringify(gist));
 
 	// write Markdown
 	request(fileObj.raw_url).pipe(fs.createWriteStream(filePath)).on('close', function() {
