@@ -77,7 +77,8 @@ Continuing Studies, Computer Science | Client-Side Programming
 - Co-Host for Making Product Better podcast (currently in production)
 - Lecturer at General Assembly SF
 - Lead member of the Product and Engineering Culture Club at Say Media Honorable Mention in the Say Media Hack to the Future 2, Hackathon
-- Founder of The Breakfast Club, a bimonthly breakfast for SOMA tech entrepreneurs Editor of the dailymile blog | dailymile.com/blog
+- Founder of The Breakfast Club, a bimonthly breakfast for SOMA tech entrepreneurs 
+- Editor of the dailymile blog | dailymile.com/blog
 - Active member of the women in technology and science community
 - Founding team member of The StepsFoundation nonprofit
 - Competitive marathon runner
