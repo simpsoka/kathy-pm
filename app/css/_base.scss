@@ -1,0 +1,144 @@
+// layout
+
+$small-spacing:  0.625rem;
+$base-spacing:   1.25rem;
+$base-button-border-radius: 5px;
+$base-button-color: highlight-color();
+
+$color-background: #FFF;
+$highlight-color: #7a52ef;
+
+$light-theme: (
+  'border': #bec4c7,
+  'border-secondary': #d8dcdf,
+  'border-tertiary': #e8ecef,
+  'success': #1dd0d8,
+  'error': #e54e72,
+  'background-secondary': #edeff3,
+  'base-tertiary': #bdc4c8,
+  'base': #3d4549,
+  'background': #FFFFFF,
+  'base-quaternary': #d9dddf,
+  'base-secondary': #969c9f
+);
+
+$light-theme-components: (
+  'border': (map-get($light-theme, 'border'), 
+            map-get($light-theme, 'border-secondary'), 
+            map-get($light-theme, 'border-tertiary')),
+
+  'background': (map-get($light-theme, 'background'), 
+                map-get($light-theme, 'background-secondary')),
+
+  'base': (map-get($light-theme, 'base'), 
+           map-get($light-theme, 'base-secondary'), 
+           map-get($light-theme, 'base-tertiary'), 
+           map-get($light-theme, 'base-quaternary'))
+);
+
+
+$base-theme: $light-theme !default;
+
+@mixin theme-view($theme) {
+  h1, h2, h3, h4, .title, strong {
+    color: base-color(1, $theme);
+  }
+  p, & { color: base-color(2, $theme); }
+  .secondary-text, .time-ago, .alt-title, .button.base-secondary, .secondary-button {
+    color: base-color(3, $theme);
+  }
+  .button.outline-button.base-secondary, .button.secondary-button.outline-button {
+    border-color: base-color(3, $theme);
+  }
+  a {
+    color: base-color(1, $theme) !important;
+    &.tab-link {
+      color: base-color(2, $theme) !important;
+    }
+  }
+}
+
+@mixin outline-button($color) {
+  border-radius: $base-button-border-radius;
+  border: 2px solid $color;
+  color: $color;
+  &:hover {
+    background-color: $color;
+    color: white;
+  }
+}
+
+@mixin solid-button($color) {
+  border-radius: $base-button-border-radius;
+  background: $color;
+  border: none;
+  color: base-color(1, $highlight-color);
+}
+
+
+// functions
+@function theme-color($color, $theme: $base-theme) {
+  @if map-has-key($theme, $color) {
+    @return map-get($theme, $color);
+  }
+}
+
+@function border-color($nth: 1, $theme: $base-theme) {
+  @if map-has-key($theme, $color) {
+    @return map-get($theme, $color);
+  }
+}
+
+@function background-color($nth: 1, $theme: $base-theme) {
+  @return _component-color($theme, 'background', $nth);
+}
+
+@function base-color($nth: 1, $theme: $base-theme) {
+  @return _component-color($theme, 'base', $nth);
+}
+
+@function border-color($nth: 1, $theme: $base-theme) {
+  @return _component-color($theme, 'border', $nth);
+}
+
+@function color-for-background($color, $background) {
+  @if ($base-theme == $light-theme) {
+    @return add-color($color, $background);
+  } @else {
+    @return subtract-color($color, $background);
+  }
+}
+
+
+// these are inverted. higher value = more white
+@function add-color($color1, $color2) {
+  @return rgba(constrain(red($color1) - (255 - red($color2))), constrain(green($color1) - (255 - green($color2))), constrain(blue($color1) - (255 - blue($color2))), avg(alpha($color1), alpha($color2)));
+}
+
+@function subtract-color($color1, $color2) {
+  @return rgba(constrain(red($color1) + (255 - red($color2))), constrain(green($color1) + (255 - green($color2))), constrain(blue($color1) + (255 - blue($color2))), avg(alpha($color1), alpha($color2)));
+}
+
+@function themeable-color($light-color, $dark-color) {
+  @if($base-theme == $light-theme) {
+    @return $light-color;
+  } @else {
+    @return $dark-color;
+  }
+}
+
+// private functions
+@function _component-color($theme, $component, $nth) {
+  $map: _component-map-for-theme($theme);
+  @if map-has-key($map, $component) {
+    @return nth(map-get($map, $component), $nth);
+  }
+}
+
+@function _component-map-for-theme($theme) {
+  @if($theme == $light-theme) {
+    @return $light-theme-components;
+  }
+}
+
+$base-link-color: highlight-color();
