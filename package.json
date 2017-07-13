@@ -13,6 +13,6 @@
 		"heroku-self-ping" : "1.1.2"
 	},
 	 "engines": {
-    "node": "0.12.7"
+    "node": "6.11.1"
   }
 }
