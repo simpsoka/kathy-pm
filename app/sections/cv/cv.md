@@ -1,11 +1,11 @@
 Kathy Simpson
 =============
-415.637.2295 | simpsoka@gmail.com
+415.637.1111 | simpsoka@gmail.com
 --------------------------------------------------------------
 
 ### Summary
 My background is in engineering, and I’ve always been a maker. I am extremely motivated, intensely curious, and radically passionate about technology.
-I am interested in helping teams navigate the ever expanding world of tech, but leveraging it to solve strategic challenges is just half of the puzzle. Product innovation is a by-product of cohesive team dynamics and strong leadership. I believe that successful products are second to smart teams. I love exploring new ways to build products, and with today’s breadth of devices, the options are seemingly endless. At work, I love finding new ways to get my hands dirty; exploring new tools, prototyping potential solutions, trying different processes, and kicking-off initiatives. At heart I’m a geek who’s often found engaging with the SF tech community through meetups, Twitter, Tacebook, etc. I’ve played a critical role in the creation of new products, and am eager to be in a position where I can work to make products successful well beyond launch.
+I am interested in helping teams navigate the ever expanding world of tech, but leveraging it to solve strategic challenges is just half of the puzzle. Product innovation is a by-product of cohesive team dynamics and strong leadership. I believe that successful products are second to smart teams. I love exploring new ways to build products, and with today’s breadth of devices, the options are seemingly endless. At work, I love finding new ways to get my hands dirty; exploring new tools, prototyping potential solutions, trying different processes, and kicking-off initiatives. At heart I’m a geek who’s often found engaging with the SF tech community through meetups, Twitter, Facebook, etc. I’ve played a critical role in the creation of new products, and am eager to be in a position where I can work to make products successful well beyond launch.
 
 Technology is my life, and I will always be passionate about it. I am grateful to live in San Francisco, where I am continually surrounded by people who appreciate innovative and progressive technology as much as I do.
 
@@ -23,8 +23,18 @@ Jenkins/Cucumber, TestFlight
 
 ### Work Experience
 
-#### Sr Product Manager, Substantial
-Now
+#### Sr. Director Product Management, GitHub
+
+Now. 
+
+I'm currently at GitHub, where I work as the Developer lead. I constantly think about how to improve developer workflows around coding, collaboration, and contributing. 
+
+#### Sr. Product Manager, Heroku
+
+At Heroku I'm a member of the Product Management group and I work directly with the Human Interface Team building dashboard.heroku.com. On this team I help manage the user experience across Heroku products that are part of the Heroku Dashboard interface. I maintain a strong curiosity for developer collaboration, pairing often with other product managers and engineering teams to build better developer tool experiences across the Heroku and Salesforce Platforms. 
+
+#### Sr. Product Manager, Substantial
+8/14-12/15
 
 At Substantial I work with a team of developers and designers to take product ideas from conception to launch. Along with daily product management tasks like reporting, data analysis, scrum management, I specialize in refining our communication and process, which helps us tone our weaknesses and improve our strengths. We employ a deep level of honesty and analysis for what we do and how we do it. My team is skilled at successful product launches that continue to grow in the real world. To help ensure future growth and stability, I empower my team by leveraging tools to help us succeed such as authoring Product Opportunity Assessment or Lean Canvas, de ning our MVP criteria and hypotheses, collaborating to move past road blocks intelligently, and highlighting product market fit goals and roadmap.
 
@@ -64,15 +74,15 @@ I worked on the Google.com client-side development team. My focus was on google.
 
 #### Pacific Lutheran University
 Philosophy and Physical Anthropology
-9/00-5/04
+9/00-5/03
 
 #### Stanford University
 Continuing Studies, Computer Science | Client-Side Programming
-5/05-7-06
 
 
 ### Achievements 
 
+- Heroku Wave Award winner 2016
 - Owner and founder of ThingsKnit
 - Co-Host for Making Product Better podcast (currently in production)
 - Lecturer at General Assembly SF
