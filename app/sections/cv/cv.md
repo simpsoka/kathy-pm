@@ -30,6 +30,7 @@ Now.
 I'm currently at GitHub, where I work as the Developer lead. I constantly think about how to improve developer workflows around coding, collaboration, and contributing. 
 
 #### Sr. Product Manager, Heroku
+12/15-9/17
 
 At Heroku I'm a member of the Product Management group and I work directly with the Human Interface Team building dashboard.heroku.com. On this team I help manage the user experience across Heroku products that are part of the Heroku Dashboard interface. I maintain a strong curiosity for developer collaboration, pairing often with other product managers and engineering teams to build better developer tool experiences across the Heroku and Salesforce Platforms. 
 
