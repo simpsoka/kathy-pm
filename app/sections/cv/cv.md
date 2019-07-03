@@ -1,4 +1,4 @@
-Kathy Simpson
+Kathy Korevec (Simpson)
 =============
 415.637.1111 | simpsoka@gmail.com
 --------------------------------------------------------------
