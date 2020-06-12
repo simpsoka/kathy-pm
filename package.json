@@ -5,7 +5,7 @@
 	"dependencies": {
 		"harp": "0.29.0",
 		"github": "0.2.4",
-		"markdown-pdf": "6.0.0",
+		"markdown-pdf": "10.0.0",
 		"uglify-js": "2.6.1",
 		"request": "2.67.0",
 		"node-sass": "4.11.0",
