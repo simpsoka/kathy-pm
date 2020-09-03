@@ -8,7 +8,7 @@
 		"markdown-pdf": "6.0.0",
 		"uglify-js": "2.6.1",
 		"request": "2.67.0",
-		"node-sass": "4.11.0",
+		"node-sass": "4.14.1",
 		"cron": "1.0.9",
 		"heroku-self-ping": "1.1.2"
 	},
