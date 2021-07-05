@@ -1,18 +1,24 @@
 {
-	"name": "kathy.pm",
-	"version": "0.0.1",
-	"description": "job site",
-	"dependencies": {
-		"harp": "0.29.0",
-		"github": "0.2.4",
-		"markdown-pdf": "6.0.0",
-		"uglify-js": "2.6.1",
-		"request": "2.67.0",
-		"node-sass": "4.11.0",
-		"cron": "1.0.9",
-		"heroku-self-ping": "1.1.2"
-	},
-	"engines": {
-		"node": "10.15.1"
-	}
+  "name": "kathy.pm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@next/mdx": "^11.0.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
 }
